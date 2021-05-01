@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+
+
+header {
+    justify-content:center;background-image: linear-gradient(
+        180deg
+        , #4978c1, #2a2a0800);
+        color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.logo {
+    height: 70px;
+    margin: 5px;
+}
+.search {    margin: 5px;
+    text-align: center;
+    background-color: #1c2a40;
+    border: 1px solid #aaaff2;
+    border-radius: 50px;
+    color: rgb(255 255 255);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.search::placeholder {
+    color: #7378c5;
+}
+
+.search:focus {
+    background-color: #22254b;
+    outline: none;
+}
+
+body {
+ background-color: #22254b;
+
+}
+
+.dataset {
+    margin-top: 8px;
+    flex-wrap: wrap;
+    background-color:rgb(21, 32, 43);
+    color: antiquewhite;
+    border-radius: 2px;
+    box-shadow: 0 4px 5px rgb(255 255 255 / 20%);
+    overflow: hidden;
+    position: revert;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+}
+
+.dataset-info {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+.maindata {
+margin-top: 1rem;
+margin-left: 0.5rem;
+margin-right: 0.5rem;
+}
+.overview {
+    background-color: #fff;
+    color: #000000;
+    padding: 2rem;
+    max-height: 100%;
+    overflow: auto;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+    transition: transform 0.4s ease-in;
+}
+.link
+{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.details
+{
+    color: rgb(0, 0, 0);
+}
+
+.overview h3 {
+    color: rgb(241, 205, 0);
+    margin-top: 0;
+}
+
+.dataset:hover .overview {
+    transform: translateY(0);
+}
+.save {
+    text-align: center;
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: rgb(255, 253, 253);
+    background-image: linear-gradient(
+360deg
+, #4978c1, #2a2a0800);
+}
+footer {
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(241, 252, 252);
+    background-image: linear-gradient(
+180deg
+, #4978c1, #2a2a0800);
+}
+.footer a{
+color: white;
+} 
+
