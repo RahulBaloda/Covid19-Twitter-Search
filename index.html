@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="icon" href="./img/fav.ico" sizes="16x16"/>
+    <link rel="icon" href="./img/fav.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="./img/fav.ico" />
+
+<meta name="msapplication-TileImage" content="./img/fav.ico" />
+    <meta charset="UTF-8">
+    <meta property="og:site_name" content="Covid-19 Twitter Search" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Real Time Info for Covid-19 Treatment Resources" />
+    <meta property="og:description" content="A Portal to Twitter Search the Data on Availability of Hospital Beds, Ambulance, Testing Facility, Oxygen Cylinders, Blood Plasma, Critical Medicines for Covid-19" />
+    <meta property="og:image" content="./img/logo.png" />
+    <title>Twitter Search for COVID Resources</title>
+
+    <!-- CSS Stylesheets and js-->
+    <link rel="stylesheet" href="./css/core.css">
+    <script src="./js/twittersearch.js" defer></script>
+   </head>
+   
+<body>
+    <header class="header">
+        <h1 style="text-align: center;">Twitter Search for COVID Resources</h1></header>
+        <br/>
+       <div class="dataset">
+           
+        <form class="maindata" action="" method="POST" >
+
+            <input class="search" type="text" name="place" id="place" placeholder="Enter City/Town name here" required><br>
+            <br>
+           
+                
+                        <input class="search" type="checkbox" name="beds" id="beds"  value="BED OR BEDS">
+                        <label for="">Beds</label>
+                        <input class="search" type="checkbox" name="oxygen" id="oxygen"  value="OR OXYGEN">
+                        <label for="">Oxygen</label>
+                        <input class="search" type="checkbox" name="food" id="food"  value="OR FOOD">
+                        <label for="">Food</label>
+                        <input class="search" type="checkbox" name="remdesivir" id="remdesivir"  value="OR Remdesivir">
+                        <label for="">Remdesivir</label>
+                  <br>
+                
+                        <input class="search" type="checkbox" name="fabiflu" id="Fabiflu"  value="OR Fabiflu">
+                        <label for="">Fabiflu</label> 
+                        <input class="search" type="checkbox" name="ventilator" id="Ventilator"  value="OR Ventilator">
+                        <label for="">Ventilator</label>
+                        <input class="search" type="checkbox" name="icu" id="ICU"  value="OR ICU">
+                        <label for="">ICU</label>
+                        <input class="search" type="checkbox" name="tests" id="tests"  value=" OR Tests">
+                        <label for="">Tests</label>
+                   
+      
+            
+            <br>
+            <div class="searchBtnDiv">
+                <button class="search" type="button" onclick="genLink()" > Search</button>
+
+            </div>
+           
+        </form>
+        
+        <div id="dataset-info"><a id="alert"> Please fill mandatory fields! Eg: City</a></div>
+      <div id="overview" class="overview" style="transform: translateY(101%);"><a visibility = "visible" id="link">Click Here to View the Results </a></div>
+    
+    </div>
+    </div>
+</div>
+
+<br/><footer class="save">
+    <p>Wear Mask 😷. Help Others 🙏</p>
+    </footer>
+<footer class="footer">
+    <p>Created by <a href="https://instagram.com/imrahuljat">Rahul</a> with ❤️.</p>
+</footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</html>
